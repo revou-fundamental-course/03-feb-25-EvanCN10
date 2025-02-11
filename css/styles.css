@@ -1,1 +1,50 @@
 /* Ini file CSS */
+
+main {
+  max-width: 750px;
+  justify-self: center;
+
+  background-color: antiquewhite;
+  border-radius: 10px;
+  font-family: math;
+}
+
+.main-header {
+  text-align: center;
+}
+
+section {
+  padding: 8px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type]:focus {
+  border: 3px solid #555;
+}
+
+.button-group {
+  margin-top: 12px;
+}
+
+button {
+  padding: 4px 16px;
+}
+
+span {
+  font-size: larger;
+}
