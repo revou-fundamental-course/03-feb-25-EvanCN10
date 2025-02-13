@@ -48,3 +48,10 @@ button {
 span {
   font-size: larger;
 }
+
+footer {
+  text-align: center;
+  padding: 8px;
+  color: black;
+  border-radius: 10px 10px 10px 10px;
+}
