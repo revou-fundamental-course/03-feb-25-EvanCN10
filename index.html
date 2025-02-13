@@ -11,7 +11,7 @@
 
   <body>
     <header class="main-header">
-      <h1>Konversi Suhu</h1>
+      <h1>KONVERSI SUHU</h1>
     </header>
 
     <main>
@@ -32,9 +32,12 @@
           </div>
 
           <div>
-            <button class="button">Konversi</button>
-            <button class="button">Reset</button>
-            <button class="button">Reverse</button>
+            <button class="button" type="button" onclick="validateForm()">
+              Konversi
+            </button>
+            <button class="button" type="button" onclick="resetForm()">
+              Reset
+            </button>
           </div>
         </form>
       </section>
@@ -43,7 +46,7 @@
       <section>
         <div class="input-group">
           <label for="main-result">Fahrenheit (&deg;F):</label>
-          <input type="text" id="main-result" readonly />
+          <input type="number" id="main-result" readonly />
         </div>
       </section>
 
@@ -85,5 +88,7 @@
     </main>
 
     <footer></footer>
+
+    <script src="js/script.js" defer></script>
   </body>
 </html>
